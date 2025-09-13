@@ -12,3 +12,5 @@ python -m venv ohlcv-server
 install packages
 pip install -f requirement.txt
 
+CREATE DATABASE ohlcv_backpack;
+GRANT ALL PRIVILEGES ON DATABASE ohlcv_binance TO admin;
